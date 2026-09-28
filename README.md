@@ -132,7 +132,7 @@ The Manager portal opens on a network-wide alert count and a grid of hub tiles. 
       <br><sub><b>7-day forecast:</b> confidence labeled per day</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot 2026-09-28 131221" alt="Model evaluation table with RMSE and MAE broken down by station">
+      <img src="assets/Screenshot 2026-09-28 131221.png" alt="Model evaluation table with RMSE and MAE broken down by station">
       <br><sub><b>Model Evaluation:</b> held-out RMSE/MAE by station or SKU</sub>
     </td>
   </tr>
