@@ -1,0 +1,43 @@
+timestamp,event_type,station_id,sub_group,primary_risk,symptom_category,sku,quantity,unit_price,total_price,region_critical,stock_before,stock_after,actor
+2026-09-04T12:18:09,symptom_selected,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Acidity & Reflux,,,,,,,,customer
+2026-09-04T12:18:18,purchase,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Acidity & Reflux,DIG-001,1,65.0,65.0,False,45,44,customer
+2026-09-24T17:20:15,symptom_selected,Leh Airport,Hill Stations,Motion Sickness & Altitude,Topical Injury / Sprain,,,,,,,,customer
+2026-09-24T17:22:57,symptom_selected,Kolkata Howrah,Coastal Metros,Humidity & Waterborne Risks,Acidity & Reflux,,,,,,,,customer
+2026-09-25T11:50:29,symptom_selected,Udaipur City Station,Arid Desert,Arid Heat,First Aid,,,,,,,,customer
+2026-09-25T17:46:11,symptom_selected,Jaipur Bus Stand,Arid Desert,Severe Dehydration & Dust,Acidity & Reflux,,,,,,,,customer
+2026-09-25T17:46:36,purchase,Jaipur Bus Stand,Arid Desert,Severe Dehydration & Dust,Acidity & Reflux,DIG-001,1,65.0,65.0,False,45,44,customer
+2026-09-28T12:17:36,symptom_selected,Mumbai CSMT,Coastal Metros,High Humidity & Urban Commute,Acidity & Reflux,,,,,,,,customer
+2026-09-28T12:17:49,purchase,Mumbai CSMT,Coastal Metros,High Humidity & Urban Commute,Acidity & Reflux,DIG-001,2,65.0,130.0,False,45,43,customer
+2026-09-28T12:18:04,symptom_selected,Bengaluru SBC,Inland Temperate/Pollen,Allergic Rhinitis & Sneezing,Allergy & Sneezing,,,,,,,,customer
+2026-09-28T12:18:12,purchase,Bengaluru SBC,Inland Temperate/Pollen,Allergic Rhinitis & Sneezing,Allergy & Sneezing,RESP-002,1,40.0,40.0,True,45,44,customer
+2026-09-28T12:18:54,restock,Bengaluru SBC,Inland Temperate/Pollen,Allergic Rhinitis & Sneezing,,RESP-002,24,,,True,44,68,Operator: Bengaluru SBC
+2026-09-28T12:19:13,restock,Bengaluru SBC,Inland Temperate/Pollen,Allergic Rhinitis & Sneezing,,RESP-002,0,,,True,68,68,Operator: Bengaluru SBC
+2026-09-28T12:19:51,restock,Kolkata Howrah,Coastal Metros,Humidity & Waterborne Risks,,DIG-002,14,,,True,8,22,Manager (Network)
+2026-09-28T12:33:57,restock,Hyderabad Nampally,Arid Urban / Heat,Dry Heat & Exhaustion,,HEAT-001,-31,,,True,45,14,Manager (Network)
+2026-09-28T12:34:47,symptom_selected,Manali Bus Stand,Hill Stations,Winding Roads & Cold,Motion Sickness,,,,,,,,customer
+2026-09-28T12:35:13,purchase,Manali Bus Stand,Hill Stations,Winding Roads & Cold,Motion Sickness,TRAV-002,2,45.0,90.0,True,45,43,customer
+2026-09-28T12:35:25,symptom_selected,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Pain & Fever,,,,,,,,customer
+2026-09-28T12:35:34,purchase,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Pain & Fever,PAIN-001,2,30.0,60.0,False,45,43,customer
+2026-09-28T12:36:07,restock,Manali Bus Stand,Hill Stations,Winding Roads & Cold,,PAIN-002,-14,,,True,45,31,Operator: Manali Bus Stand
+2026-09-28T12:40:06,symptom_selected,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Pain & Fever,,,,,,,,customer
+2026-09-28T12:40:16,purchase,Sikkim (Gangtok Station),Hill Stations,Altitude & Cold,Pain & Fever,PAIN-001,3,30.0,90.0,False,43,40,customer
+2026-09-28T12:40:28,symptom_selected,Udaipur City Station,Arid Desert,Arid Heat,Dehydration / Diarrhea,,,,,,,,customer
+2026-09-28T12:40:41,symptom_selected,Udaipur City Station,Arid Desert,Arid Heat,Acidity & Reflux,,,,,,,,customer
+2026-09-28T12:40:47,purchase,Udaipur City Station,Arid Desert,Arid Heat,Acidity & Reflux,DIG-001,1,65.0,65.0,False,45,44,customer
+2026-09-28T12:41:09,restock,Udaipur City Station,Arid Desert,Arid Heat,,HEAT-001,14,,,True,45,59,Operator: Udaipur City Station
+2026-09-28T13:09:01,symptom_selected,Delhi NDLS,Inland High-Pollution,Smog & Respiratory Irritation,Topical Injury / Sprain,,,,,,,,customer
+2026-09-28T13:09:15,symptom_selected,Delhi NDLS,Inland High-Pollution,Smog & Respiratory Irritation,Respiratory & Smog Care,,,,,,,,customer
+2026-09-28T13:09:43,purchase,Delhi NDLS,Inland High-Pollution,Smog & Respiratory Irritation,Respiratory & Smog Care,RESP-001,2,110.0,220.0,True,45,43,customer
+2026-09-28T13:10:31,restock,Delhi NDLS,Inland High-Pollution,Smog & Respiratory Irritation,,RESP-001,45,,,True,43,88,Operator: Delhi NDLS
+2026-09-28T16:58:56,symptom_selected,Andaman (Port Blair),Coastal & Beach,Ferry Motion & Humidity,Dehydration / Diarrhea,,,,,,,,customer
+2026-09-28T16:59:05,purchase,Andaman (Port Blair),Coastal & Beach,Ferry Motion & Humidity,Dehydration / Diarrhea,DIG-002,2,25.0,50.0,True,8,6,customer
+2026-09-28T16:59:14,symptom_selected,Chennai Central,Coastal Metros,Tropical Humidity & Hydration,Motion Sickness,,,,,,,,customer
+2026-09-28T16:59:19,purchase,Chennai Central,Coastal Metros,Tropical Humidity & Hydration,Motion Sickness,TRAV-001,2,40.0,80.0,True,45,43,customer
+2026-09-28T16:59:41,restock,Goa Railway Station,Coastal & Beach,Humidity & Water Safety,,DIG-002,15,,,True,8,23,Operator: Goa Railway Station
+2026-09-28T17:00:31,symptom_selected,Goa Railway Station,Coastal & Beach,Humidity & Water Safety,Dehydration / Diarrhea,,,,,,,,customer
+2026-09-28T17:00:36,purchase,Goa Railway Station,Coastal & Beach,Humidity & Water Safety,Dehydration / Diarrhea,DIG-002,2,25.0,50.0,True,23,21,customer
+2026-09-28T17:00:46,symptom_selected,Hyderabad Nampally,Arid Urban / Heat,Dry Heat & Exhaustion,Acidity & Reflux,,,,,,,,customer
+2026-09-28T17:00:50,symptom_selected,Hyderabad Nampally,Arid Urban / Heat,Dry Heat & Exhaustion,Heat Exhaustion & Fatigue,,,,,,,,customer
+2026-09-28T17:00:56,purchase,Hyderabad Nampally,Arid Urban / Heat,Dry Heat & Exhaustion,Heat Exhaustion & Fatigue,HEAT-001,2,60.0,120.0,True,45,43,customer
+2026-09-28T17:01:13,restock,Andaman (Port Blair),Coastal & Beach,Ferry Motion & Humidity,,DIG-002,14,,,True,6,20,Operator: Andaman (Port Blair)
+2026-09-28T17:01:25,restock,Andaman (Port Blair),Coastal & Beach,Ferry Motion & Humidity,,AID-001,119,,,False,8,127,Operator: Andaman (Port Blair)

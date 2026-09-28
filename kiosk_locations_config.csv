@@ -1,0 +1,14 @@
+Location_Name,Category_Type,Sub_Group,Primary_Risk,Base_Multiplier
+Leh Airport,Terrain,Hill Stations,Motion Sickness & Altitude,1.8
+Sikkim (Gangtok Station),Terrain,Hill Stations,Altitude & Cold,1.7
+Manali Bus Stand,Terrain,Hill Stations,Winding Roads & Cold,1.6
+Goa Railway Station,Terrain,Coastal & Beach,Humidity & Water Safety,2.0
+Andaman (Port Blair),Terrain,Coastal & Beach,Ferry Motion & Humidity,1.9
+Jaipur Bus Stand,Terrain,Arid Desert,Severe Dehydration & Dust,1.6
+Udaipur City Station,Terrain,Arid Desert,Arid Heat,1.5
+Mumbai CSMT,Urban Metro,Coastal Metros,High Humidity & Urban Commute,1.7
+Chennai Central,Urban Metro,Coastal Metros,Tropical Humidity & Hydration,1.8
+Kolkata Howrah,Urban Metro,Coastal Metros,Humidity & Waterborne Risks,1.7
+Delhi NDLS,Urban Metro,Inland High-Pollution,Smog & Respiratory Irritation,1.9
+Bengaluru SBC,Urban Metro,Inland Temperate/Pollen,Allergic Rhinitis & Sneezing,1.4
+Hyderabad Nampally,Urban Metro,Arid Urban / Heat,Dry Heat & Exhaustion,1.5

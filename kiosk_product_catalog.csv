@@ -1,0 +1,12 @@
+SKU,Symptom_Category,Active_Ingredient_Description,Form_Factor,Target_Destination_Tag,Unit_Price_INR
+PAIN-001,Pain & Fever,Paracetamol 650mg,Tablet Strip,All,30
+PAIN-002,Topical Injury / Sprain,Diclofenac Sodium Gel / Spray,Gel / Spray,Hill Stations,150
+RESP-001,Respiratory & Smog Care,Saline Nasal Spray + Throat Lozenges,Spray / Pack,Delhi,110
+RESP-002,Allergy & Sneezing,Cetirizine / Levocetirizine 10mg,Tablet Strip,Bengaluru,40
+DIG-001,Acidity & Reflux,Antacid Gel / Chewable Tablets,Liquid / Chewable,All,65
+DIG-002,Dehydration / Diarrhea,Oral Rehydration Salts (ORS) + Zinc,Powder Sachet,Coastal & Humid Metros,25
+DIG-003,Dehydration / Diarrhea,Loperamide Capsules,Capsule Strip,All,35
+TRAV-001,Motion Sickness,Dimenhydrinate 50mg,Chewable Tablet,Coastal Hubs & Hill Stations,40
+TRAV-002,Motion Sickness,Promethazine / Herbal Mint Strip,Chewable Strip,Hill Stations,45
+AID-001,First Aid,Antiseptic Liquid + Bandages + Gauze,Mini Kit,All,50
+HEAT-001,Heat Exhaustion & Fatigue,Electrolyte Energy Salts + Cooling Patch,Sachet / Patch,Arid Deserts & Hyderabad,60
