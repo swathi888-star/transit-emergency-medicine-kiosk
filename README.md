@@ -6,10 +6,10 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=H00sXRvFeXU">
-    <img src="https://img.youtube.com/vi/d_q8dtSMkMI/hqdefault.jpg" alt="Watch the demo video on YouTube" width="560">
+    <img src="https://img.youtube.com/vi/H00sXRvFeXU/hqdefault.jpg" alt="Watch the demo video on YouTube" width="560">
   </a>
   <br>
-  <b><a href="https://www.youtube.com/watch?v=d_q8dtSMkMI">▶ Watch the full demo on YouTube</a></b>
+  <b><a href="https://www.youtube.com/watch?v=H00sXRvFeXU">▶ Watch the full demo on YouTube</a></b>
 </p>
 
 **Jump to:** [Problem](#the-problem) · [Solution](#the-solution--three-roles-one-system) · [Walkthrough](#product-walkthrough) · [Forecasting Engine](#why-this-is-more-than-a-crud-app--the-forecasting-engine) · [Architecture](#architecture) · [Getting Started](#getting-started) · [Limitations](#known-limitations--roadmap)
@@ -50,31 +50,31 @@ The kiosk opens on a single call to action, then narrows in two taps: pick your 
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130810.png" alt="Kiosk welcome screen with a Touch Here to Begin button">
+      <img src="assets/Screenshot 2026-09-28_130810.png" alt="Kiosk welcome screen with a Touch Here to Begin button">
       <br><sub><b>1. Welcome:</b> one-tap start</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130820.png" alt="Grid of 13 transit hubs to choose from, each with its climate sub-group">
+      <img src="assets/Screenshot 2026-09-28_130820.png" alt="Grid of 13 transit hubs to choose from, each with its climate sub-group">
       <br><sub><b>2. Hub selection:</b> 13 hubs, each tagged with its climate sub-group</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130859.png" alt="Symptom selection screen for Delhi NDLS showing the hub's primary risk factor">
+      <img src="assets/Screenshot 2026-09-28_130859.png" alt="Symptom selection screen for Delhi NDLS showing the hub's primary risk factor">
       <br><sub><b>3. Symptom selection:</b> the hub's primary risk is surfaced up front</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130927.png" alt="Product card for Saline Nasal Spray with a region-critical badge, price, live stock count, a per-passenger limit and a quantity selector">
+      <img src="assets/Screenshot 2026-09-28_130927.png" alt="Product card for Saline Nasal Spray with a region-critical badge, price, live stock count, a per-passenger limit and a quantity selector">
       <br><sub><b>4. Recommendation:</b> region-critical badge, live stock, per-passenger limit</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130942.png" alt="Mock payment gateway showing the amount to pay">
+      <img src="assets/Screenshot 2026-09-28_130942.png" alt="Mock payment gateway showing the amount to pay">
       <br><sub><b>5. Mock payment:</b> simulated secure checkout</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_130952.png" alt="Successfully paid confirmation with instructions to collect the item from the kiosk tray">
+      <img src="assets/Screenshot 2026-09-28_130952.png" alt="Successfully paid confirmation with instructions to collect the item from the kiosk tray">
       <br><sub><b>6. Collect:</b> confirmation and tray pickup</sub>
     </td>
   </tr>
@@ -87,15 +87,15 @@ Operators log in with a station and PIN and see only their own kiosk. Each low i
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="assets/Screenshot_2026-09-28_131013.png" alt="Operator login in the sidebar with station selector and PIN field">
+      <img src="assets/Screenshot 2026-09-28_131013.png" alt="Operator login in the sidebar with station selector and PIN field">
       <br><sub><b>PIN-gated login</b> scoped to one station</sub>
     </td>
     <td align="center" width="33%">
-      <img src="assets/Screenshot_2026-09-28_131030.png" alt="Severity cards showing a Critical and a Warning item with burn rate and estimated days to stockout, above the restock form with a suggested quantity">
+      <img src="assets/Screenshot 2026-09-28_131030.png" alt="Severity cards showing a Critical and a Warning item with burn rate and estimated days to stockout, above the restock form with a suggested quantity">
       <br><sub><b>Severity cards + smart restock suggestion</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="assets/Screenshot_2026-09-28_131040.png" alt="Green banner confirming a successful restock, 43 to 88 units, alert cleared">
+      <img src="assets/Screenshot 2026-09-28_131040.png" alt="Green banner confirming a successful restock, 43 to 88 units, alert cleared">
       <br><sub><b>Confirmation:</b> what changed, and whether the alert cleared</sub>
     </td>
   </tr>
@@ -108,7 +108,7 @@ The Manager portal opens on a network-wide alert count and a grid of hub tiles. 
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_131100.png" alt="Manager portal with a network-wide low-stock banner and a grid of hub tiles with warning icons">
+      <img src="assets/Screenshot 2026-09-28_131100.png" alt="Manager portal with a network-wide low-stock banner and a grid of hub tiles with warning icons">
       <br><sub><b>Network alerts:</b> one banner, one tile per hub</sub>
     </td>
     <td align="center" width="50%">
@@ -118,27 +118,27 @@ The Manager portal opens on a network-wide alert count and a grid of hub tiles. 
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_131129.png" alt="ML network risk table counting high-risk, moderate and healthy SKUs per station">
+      <img src="assets/Screenshot 2026-09-28_131129.png" alt="ML network risk table counting high-risk, moderate and healthy SKUs per station">
       <br><sub><b>Network Risk:</b> ML-scored SKU health per kiosk</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_131136.png" alt="Kiosk detail table for Leh Airport comparing static threshold status against ML demand risk status per SKU">
+      <img src="assets/Screenshot 2026-09-28_131136.png" alt="Kiosk detail table for Leh Airport comparing static threshold status against ML demand risk status per SKU">
       <br><sub><b>Kiosk Detail:</b> threshold status vs. ML risk, side by side</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_131149.png" alt="Seven-day demand forecast chart and table with confidence labels per day">
+      <img src="assets/Screenshot 2026-09-28_131149.png" alt="Seven-day demand forecast chart and table with confidence labels per day">
       <br><sub><b>7-day forecast:</b> confidence labeled per day</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/Screenshot_2026-09-28_131221.png" alt="Model evaluation table with RMSE and MAE broken down by station">
+      <img src="assets/Screenshot 2026-09-28_131221.png" alt="Model evaluation table with RMSE and MAE broken down by station">
       <br><sub><b>Model Evaluation:</b> held-out RMSE/MAE by station or SKU</sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="assets/Screenshot_2026-09-28_131230.png" alt="Seasonal trends table showing which categories spike above their yearly average in which months" width="50%">
+      <img src="assets/Screenshot 2026-09-28_131230.png" alt="Seasonal trends table showing which categories spike above their yearly average in which months" width="50%">
       <br><sub><b>Seasonal Trends:</b> which categories spike, and when to pre-stock</sub>
     </td>
   </tr>
